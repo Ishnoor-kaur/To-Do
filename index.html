@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zTo-Do</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="images/ik-logo-dark-grey-bg.jpg" type="image/x-icon">
+    
+</head>
+<body onload="loader()">
+    
+    <text id="head">to-do</text>
+    <div class="take">
+        <label for="task">Enter your task</label><br>
+        <input id="task" placeholder=" task here"><br>
+        <label for="desc">Enter your description</label><br>
+        <textarea placeholder=" description here" id="desc" rows="3"></textarea><br>
+        <button onclick="send(); location.reload">Submit</button><br>
+    </div>
+    
+    <section id="components"></section>
+    <script src="main.js"></script>
+</body>
+</html>
